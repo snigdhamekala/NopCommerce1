@@ -48,7 +48,7 @@ namespace NopCommerce.Nop_StepDefinitions
         public void WhenIGiveUserCredentials()
         {
             myRegistration.giveLoginDetails();
-            myRegistration.giveLoginDetails();
+        
         }
 
         [Then(@"I should be logged in successfully")]

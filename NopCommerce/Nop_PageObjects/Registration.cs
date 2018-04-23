@@ -68,7 +68,7 @@ namespace NopCommerce.Nop_PageObjects
             //Using this static wait because some times it is not validating the correct credentials, might be a bug in the code
             Thread.Sleep(1000);
             driver.FindElement(By.XPath("//input[contains(@id,'ctrlCustomerLogin_LoginForm_LoginButton')]")).Click();
-            driver.FindElement(By.XPath("//input[contains(@id,'trlCustomerLogin_LoginForm_UserName')]")).Clear();
+          //  driver.FindElement(By.XPath("//input[contains(@id,'trlCustomerLogin_LoginForm_UserName')]")).Clear();
         }
 
         public Boolean confirmUserLogin()
